@@ -1,6 +1,6 @@
 task: detect
 mode: train
-model: yolov10n.yaml
+model: yolov8n.pt
 data: ./config.yaml
 epochs: 200
 time: null
