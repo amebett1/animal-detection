@@ -1,12 +1,12 @@
 import os
-from ultralytics import YOLOv10
+from ultralytics import YOLO
 
+if __name__ == '__main__':
+    
+    config_path = './config.yaml'
 
-config_path = './config.yaml'
+    # Load model
+    model = YOLO('yolov8n.pt')
 
-#load model 
-
-model = YOLOv10("yolov10n.pt")
-
-#train model
-model.train(data=config_path, epochs=200, batch=32)
+    # Train model
+    model.train(data=config_path, epochs=200, batch=32, name='animal_detector_v8')

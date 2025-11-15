@@ -3,4 +3,4 @@ train: images/train
 val: images/val
 
 names:
- 1: dog
+ 0: dog
