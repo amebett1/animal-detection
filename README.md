@@ -1,5 +1,5 @@
 # AnimalDetection
-Pets classification using YOLOv10
+Pets classification using YOLOv8
 
 **DEMO:**
 
